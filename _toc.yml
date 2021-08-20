@@ -1,0 +1,57 @@
+format: jb-book
+root: electrocinetique
+
+chapters:
+  - file: notebook/el_bases
+    sections:
+    - file: notebook/conduction
+    - file: notebook/el_lois
+    - file: notebook/td_bases
+  - file: notebook/ci_lineaire
+    sections:
+    - file: notebook/dip_gene
+    - file: notebook/dip_passif
+    - file: notebook/dip_assoc
+    - file: notebook/dip_actif
+    - file: notebook/dip_methode
+    - file: notebook/ex_app_lineaires
+    - file: notebook/td_lineaires
+  - file: notebook/trans_gene
+    sections:
+    - file: notebook/trans_regimes
+    - file: notebook/trans_methodes
+    - file: notebook/trans_stabilite
+    - file: notebook/ex_app_trans
+    - file: notebook/meth_trans
+  - file: notebook/trans_ordre
+    sections:
+    - file: notebook/trans_ordre_1
+    - file: notebook/trans_ordre_2
+    - file: notebook/ex_app_trans_o
+    - file: notebook/meth_trans_o
+      sections:
+      - file: notebook/meth_trans_o_2
+      - file: notebook/meth_trans_o_energie
+    - file: notebook/td_trans
+  - file: notebook/rsf
+    sections:
+    - file: notebook/rsf_interet
+    - file: notebook/rsf_gene
+    - file: notebook/rsf_methode
+    - file: notebook/ex_app_rsf
+    - file: notebook/meth_rsf
+      sections:
+      - file: notebook/meth_rsf_pbande
+      - file: notebook/meth_rsf_pbas
+    - file: notebook/ex_app_rsf_2
+    - file: notebook/td_rsf
+  - file: notebook/filtrage
+    sections:
+    - file: notebook/filtrage_def
+    - file: notebook/filtrage_reponse
+    - file: notebook/filtrage_gene
+    - file: notebook/filtrage_typo
+    - file: notebook/filtrage_cahier
+    - file: notebook/filtrage_cascade
+    - file: notebook/td_filtrage
+
