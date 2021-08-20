@@ -54,4 +54,6 @@ chapters:
     - file: notebook/filtrage_cahier
     - file: notebook/filtrage_cascade
     - file: notebook/td_filtrage
+      sections:
+      - file: notebook/pont_wien
 
