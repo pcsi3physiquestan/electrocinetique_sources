@@ -16,7 +16,7 @@ kernelspec:
 # Filtrage linéaire (2): Etude d'un filtre
 
 ````{admonition} Objectifs
-:class: hint
+:class: tip
 * Expliciter les conditions d'utilisation d'un filtre afin de l'utiliser comme moyenneur, intégrateur ou dérivateur
 * Relier l'acuité de la résonance au facteur de qualité
 * Choisir un type de filtre en fonction des besoins d'un système
