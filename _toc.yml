@@ -4,58 +4,68 @@ root: electrocinetique
 chapters:
   - file: notebook/el_bases
     sections:
-    - file: notebook/conduction
-    - file: notebook/el_lois
-    - file: notebook/td_bases
-  - file: notebook/ci_lineaire
-    sections:
-    - file: notebook/dip_gene
-    - file: notebook/dip_passif
-    - file: notebook/dip_assoc
-    - file: notebook/dip_actif
-    - file: notebook/dip_methode
-    - file: notebook/ex_app_lineaires
-    - file: notebook/td_lineaires
-  - file: notebook/trans_gene
-    sections:
-    - file: notebook/trans_regimes
-    - file: notebook/trans_methodes
-    - file: notebook/trans_stabilite
-    - file: notebook/ex_app_trans
-    - file: notebook/meth_trans
-  - file: notebook/trans_ordre
-    sections:
-    - file: notebook/trans_ordre_1
-    - file: notebook/trans_ordre_2
-    - file: notebook/ex_app_trans_o
-    - file: notebook/meth_trans_o
+    - file: notebook/el_bases_contxt
       sections:
-      - file: notebook/meth_trans_o_2
-      - file: notebook/meth_trans_o_energie
-    - file: notebook/td_trans
+      - file: notebook/el_bases_conduction
+      - file: notebook/el_bases_lois
+      - file: notebook/el_bases_gene
+      - file: notebook/el_bases_passif
+      - file: notebook/el_bases_assoc
+      - file: notebook/el_bases_actif
+      - file: notebook/el_bases_etude
+    - file: notebook/el_bases_ex
       sections:
-      - file: notebook/pont_wien.ipynb
-  - file: notebook/rsf
+      - file: notebook/el_bases_exemples
+      - file: notebook/el_bases_meth_r
+      - file: notebook/el_bases_app
+      - file: notebook/el_bases_td
+  - file: notebook/el_trans
     sections:
-    - file: notebook/rsf_interet
-    - file: notebook/rsf_gene
-    - file: notebook/rsf_methode
-    - file: notebook/ex_app_rsf
-    - file: notebook/meth_rsf
+    - file: notebook/el_trans_contxt
       sections:
-      - file: notebook/meth_rsf_pbande
-      - file: notebook/meth_rsf_pbas
-    - file: notebook/ex_app_rsf_2
-    - file: notebook/td_rsf
-  - file: notebook/filtrage
+      - file: notebook/el_trans_regimes
+      - file: notebook/el_trans_methodes
+      - file: notebook/el_trans_stabilite
+      - file: notebook/el_trans_ordre_1
+      - file: notebook/el_trans_ordre_2
+    - file: notebook/el_trans_ex
+      sections:
+      - file: notebook/el_trans_meth_o1
+      - file: notebook/el_trans_meth_o2
+      - file: notebook/el_trans_exemples
+      - file: notebook/el_trans_meth
+        sections:
+        - file: notebook/el_trans_meth_eq
+        - file: notebook/el_trans_meth_oh
+        - file: notebook/el_trans_meth_tps
+        - file: notebook/el_trans_meth_energie
+      - file: notebook/el_trans_app
+      - file: notebook/el_trans_td
+  - file: notebook/el_rsf
     sections:
-    - file: notebook/filtrage_def
-    - file: notebook/filtrage_reponse
-    - file: notebook/filtrage_gene
-    - file: notebook/filtrage_typo
-    - file: notebook/filtrage_cahier
-    - file: notebook/filtrage_cascade
-    - file: notebook/td_filtrage
+    - file: notebook/el_rsf_contxt
       sections:
-      - file: notebook/pont_wien
+      - file: notebook/el_rsf_interet
+      - file: notebook/el_rsf_gene
+    - file: notebook/el_rsf_ex
+      sections:
+      - file: notebook/el_rsf_methodes
+      - file: notebook/el_rsf_meth
+        sections:
+        - file: notebook/el_rsf_meth_pbande
+        - file: notebook/el_rsf_meth_pbas
+      - file: notebook/el_rsf_app
+      - file: notebook/el_rsf_td
+  - file: notebook/el_filtrage
+    sections:
+    - file: notebook/el_filtrage_contxt
+      sections:
+      - file: notebook/el_filtrage_def
+      - file: notebook/el_filtrage_gene
+      - file: notebook/el_filtrage_cascade
+    - file: notebook/el_filtrage_ex
+      sections:
+      - file: notebook/el_filtrage_methodes
+      - file: notebook/el_filtrage_meth_typo
+      - file: notebook/el_filtrage_td
 
