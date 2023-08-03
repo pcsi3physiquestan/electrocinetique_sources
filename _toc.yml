@@ -19,6 +19,7 @@ chapters:
       - file: notebook/el_bases_meth_r
       - file: notebook/el_bases_app
       - file: notebook/el_bases_td
+      - file: notebook/el_bases_num
   - file: notebook/el_trans
     sections:
     - file: notebook/el_trans_contxt
