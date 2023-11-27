@@ -1,3 +1,0 @@
-Options -Indexes
-
-RewriteRule $ !/maintenance.html [R=302,L]
